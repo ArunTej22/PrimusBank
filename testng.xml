@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Batchframework" parallel="none">
+  <test name="Driverscript">
+    <classes>
+      <class name="DriverFactory.DriverScript"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Testscript">
+    <classes>    
+      <class name="DriverFactory.TestScript"/>    
+    </classes>
+  </test> <!-- Test -->
+  <test name="hybridscript">
+    <classes>
+      <class name="DriverFactory.DataDrivenDriversScript"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Batchframework -->
